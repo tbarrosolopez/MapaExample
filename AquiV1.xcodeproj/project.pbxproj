@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B2916FF215D4EBF000BC20D /* Anotacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2916FE215D4EBF000BC20D /* Anotacion.swift */; };
+		2B5A7E65205751D900843428 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A7E64205751D900843428 /* AppDelegate.swift */; };
+		2B5A7E67205751D900843428 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A7E66205751D900843428 /* ViewController.swift */; };
+		2B5A7E6A205751D900843428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5A7E68205751D900843428 /* Main.storyboard */; };
+		2B5A7E6D205751D900843428 /* AquiV1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A7E6B205751D900843428 /* AquiV1.xcdatamodeld */; };
+		2B5A7E6F205751D900843428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5A7E6E205751D900843428 /* Assets.xcassets */; };
+		2B5A7E72205751D900843428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5A7E70205751D900843428 /* LaunchScreen.storyboard */; };
+		2B5A7E7D205751D900843428 /* AquiV1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A7E7C205751D900843428 /* AquiV1Tests.swift */; };
+		2B5A7E88205751D900843428 /* AquiV1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A7E87205751D900843428 /* AquiV1UITests.swift */; };
+		2B5A7E9C20575D4700843428 /* SKMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5A7E9A20575D0E00843428 /* SKMaps.framework */; };
+		2B5A7E9D20575D4700843428 /* SKMaps.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5A7E9A20575D0E00843428 /* SKMaps.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2B5A7EA020575DBC00843428 /* SKMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2B5A7E9F20575DBC00843428 /* SKMaps.bundle */; };
+		2B5A7EA220575DF700843428 /* SKAdvisorResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2B5A7EA120575DF700843428 /* SKAdvisorResources.bundle */; };
+		2B5A7EA520575EA600843428 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5A7EA420575EA600843428 /* UIKit.framework */; };
+		2B5A7EA720575EC400843428 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5A7EA620575EC400843428 /* Foundation.framework */; };
+		2B5A7EA920575ED600843428 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5A7EA820575ED600843428 /* CoreLocation.framework */; };
+		2B5A7EAB20575EEA00843428 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5A7EAA20575EEA00843428 /* OpenGLES.framework */; };
+		2B5A7EAD20575EFC00843428 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5A7EAC20575EFC00843428 /* QuartzCore.framework */; };
+		2B5A7EAF20575F0B00843428 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5A7EAE20575F0B00843428 /* CoreGraphics.framework */; };
+		2B5A7EB120575F1A00843428 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5A7EB020575F1A00843428 /* CoreMotion.framework */; };
+		2B5A7EB520575F5400843428 /* libz.1.2.8.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5A7EB420575F5400843428 /* libz.1.2.8.tbd */; };
+		2B5A7EB720575F6100843428 /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5A7EB620575F6100843428 /* libc++.1.tbd */; };
+		2B704762215D1F4300A7DC48 /* AddMarcadorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B704761215D1F4300A7DC48 /* AddMarcadorViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B5A7E79205751D900843428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B5A7E59205751D900843428 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B5A7E60205751D900843428;
+			remoteInfo = AquiV1;
+		};
+		2B5A7E84205751D900843428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B5A7E59205751D900843428 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B5A7E60205751D900843428;
+			remoteInfo = AquiV1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B5A7E9E20575D4700843428 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2B5A7E9D20575D4700843428 /* SKMaps.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B2916FE215D4EBF000BC20D /* Anotacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Anotacion.swift; path = ../Anotacion.swift; sourceTree = "<group>"; };
+		2B5A7E61205751D900843428 /* AquiV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AquiV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5A7E64205751D900843428 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B5A7E66205751D900843428 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B5A7E69205751D900843428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B5A7E6C205751D900843428 /* AquiV1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AquiV1.xcdatamodel; sourceTree = "<group>"; };
+		2B5A7E6E205751D900843428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B5A7E71205751D900843428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B5A7E73205751D900843428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5A7E78205751D900843428 /* AquiV1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AquiV1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5A7E7C205751D900843428 /* AquiV1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquiV1Tests.swift; sourceTree = "<group>"; };
+		2B5A7E7E205751D900843428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5A7E83205751D900843428 /* AquiV1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AquiV1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5A7E87205751D900843428 /* AquiV1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquiV1UITests.swift; sourceTree = "<group>"; };
+		2B5A7E89205751D900843428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5A7E9A20575D0E00843428 /* SKMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SKMaps.framework; sourceTree = "<group>"; };
+		2B5A7E9F20575DBC00843428 /* SKMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SKMaps.bundle; sourceTree = "<group>"; };
+		2B5A7EA120575DF700843428 /* SKAdvisorResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SKAdvisorResources.bundle; sourceTree = "<group>"; };
+		2B5A7EA420575EA600843428 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2B5A7EA620575EC400843428 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B5A7EA820575ED600843428 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2B5A7EAA20575EEA00843428 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2B5A7EAC20575EFC00843428 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2B5A7EAE20575F0B00843428 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2B5A7EB020575F1A00843428 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		2B5A7EB220575F3400843428 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2B5A7EB420575F5400843428 /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
+		2B5A7EB620575F6100843428 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		2B704761215D1F4300A7DC48 /* AddMarcadorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMarcadorViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B5A7E5E205751D900843428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5A7EB720575F6100843428 /* libc++.1.tbd in Frameworks */,
+				2B5A7EB520575F5400843428 /* libz.1.2.8.tbd in Frameworks */,
+				2B5A7EB120575F1A00843428 /* CoreMotion.framework in Frameworks */,
+				2B5A7EAF20575F0B00843428 /* CoreGraphics.framework in Frameworks */,
+				2B5A7EAD20575EFC00843428 /* QuartzCore.framework in Frameworks */,
+				2B5A7EAB20575EEA00843428 /* OpenGLES.framework in Frameworks */,
+				2B5A7EA920575ED600843428 /* CoreLocation.framework in Frameworks */,
+				2B5A7EA720575EC400843428 /* Foundation.framework in Frameworks */,
+				2B5A7EA520575EA600843428 /* UIKit.framework in Frameworks */,
+				2B5A7E9C20575D4700843428 /* SKMaps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5A7E75205751D900843428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5A7E80205751D900843428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B5A7E58205751D900843428 = {
+			isa = PBXGroup;
+			children = (
+				2B5A7E63205751D900843428 /* AquiV1 */,
+				2B5A7E7B205751D900843428 /* AquiV1Tests */,
+				2B5A7E86205751D900843428 /* AquiV1UITests */,
+				2B5A7E62205751D900843428 /* Products */,
+				2B5A7EA320575EA600843428 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B5A7E62205751D900843428 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B5A7E61205751D900843428 /* AquiV1.app */,
+				2B5A7E78205751D900843428 /* AquiV1Tests.xctest */,
+				2B5A7E83205751D900843428 /* AquiV1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B5A7E63205751D900843428 /* AquiV1 */ = {
+			isa = PBXGroup;
+			children = (
+				2B5A7EA120575DF700843428 /* SKAdvisorResources.bundle */,
+				2B5A7E9F20575DBC00843428 /* SKMaps.bundle */,
+				2B5A7E9A20575D0E00843428 /* SKMaps.framework */,
+				2B5A7E64205751D900843428 /* AppDelegate.swift */,
+				2B5A7E66205751D900843428 /* ViewController.swift */,
+				2B2916FE215D4EBF000BC20D /* Anotacion.swift */,
+				2B5A7E68205751D900843428 /* Main.storyboard */,
+				2B5A7E6E205751D900843428 /* Assets.xcassets */,
+				2B5A7E70205751D900843428 /* LaunchScreen.storyboard */,
+				2B5A7E73205751D900843428 /* Info.plist */,
+				2B5A7E6B205751D900843428 /* AquiV1.xcdatamodeld */,
+				2B704761215D1F4300A7DC48 /* AddMarcadorViewController.swift */,
+			);
+			path = AquiV1;
+			sourceTree = "<group>";
+		};
+		2B5A7E7B205751D900843428 /* AquiV1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2B5A7E7C205751D900843428 /* AquiV1Tests.swift */,
+				2B5A7E7E205751D900843428 /* Info.plist */,
+			);
+			path = AquiV1Tests;
+			sourceTree = "<group>";
+		};
+		2B5A7E86205751D900843428 /* AquiV1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B5A7E87205751D900843428 /* AquiV1UITests.swift */,
+				2B5A7E89205751D900843428 /* Info.plist */,
+			);
+			path = AquiV1UITests;
+			sourceTree = "<group>";
+		};
+		2B5A7EA320575EA600843428 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B5A7EB620575F6100843428 /* libc++.1.tbd */,
+				2B5A7EB420575F5400843428 /* libz.1.2.8.tbd */,
+				2B5A7EB220575F3400843428 /* libz.tbd */,
+				2B5A7EB020575F1A00843428 /* CoreMotion.framework */,
+				2B5A7EAE20575F0B00843428 /* CoreGraphics.framework */,
+				2B5A7EAC20575EFC00843428 /* QuartzCore.framework */,
+				2B5A7EAA20575EEA00843428 /* OpenGLES.framework */,
+				2B5A7EA820575ED600843428 /* CoreLocation.framework */,
+				2B5A7EA620575EC400843428 /* Foundation.framework */,
+				2B5A7EA420575EA600843428 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B5A7E60205751D900843428 /* AquiV1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5A7E8C205751D900843428 /* Build configuration list for PBXNativeTarget "AquiV1" */;
+			buildPhases = (
+				2B5A7E5D205751D900843428 /* Sources */,
+				2B5A7E5E205751D900843428 /* Frameworks */,
+				2B5A7E5F205751D900843428 /* Resources */,
+				2B5A7E9E20575D4700843428 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AquiV1;
+			productName = AquiV1;
+			productReference = 2B5A7E61205751D900843428 /* AquiV1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B5A7E77205751D900843428 /* AquiV1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5A7E8F205751D900843428 /* Build configuration list for PBXNativeTarget "AquiV1Tests" */;
+			buildPhases = (
+				2B5A7E74205751D900843428 /* Sources */,
+				2B5A7E75205751D900843428 /* Frameworks */,
+				2B5A7E76205751D900843428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B5A7E7A205751D900843428 /* PBXTargetDependency */,
+			);
+			name = AquiV1Tests;
+			productName = AquiV1Tests;
+			productReference = 2B5A7E78205751D900843428 /* AquiV1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B5A7E82205751D900843428 /* AquiV1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5A7E92205751D900843428 /* Build configuration list for PBXNativeTarget "AquiV1UITests" */;
+			buildPhases = (
+				2B5A7E7F205751D900843428 /* Sources */,
+				2B5A7E80205751D900843428 /* Frameworks */,
+				2B5A7E81205751D900843428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B5A7E85205751D900843428 /* PBXTargetDependency */,
+			);
+			name = AquiV1UITests;
+			productName = AquiV1UITests;
+			productReference = 2B5A7E83205751D900843428 /* AquiV1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B5A7E59205751D900843428 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Eliecer Cabrera Casas";
+				TargetAttributes = {
+					2B5A7E60205751D900843428 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YZD568V9TB;
+						ProvisioningStyle = Automatic;
+					};
+					2B5A7E77205751D900843428 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YZD568V9TB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B5A7E60205751D900843428;
+					};
+					2B5A7E82205751D900843428 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YZD568V9TB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B5A7E60205751D900843428;
+					};
+				};
+			};
+			buildConfigurationList = 2B5A7E5C205751D900843428 /* Build configuration list for PBXProject "AquiV1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B5A7E58205751D900843428;
+			productRefGroup = 2B5A7E62205751D900843428 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B5A7E60205751D900843428 /* AquiV1 */,
+				2B5A7E77205751D900843428 /* AquiV1Tests */,
+				2B5A7E82205751D900843428 /* AquiV1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B5A7E5F205751D900843428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5A7EA020575DBC00843428 /* SKMaps.bundle in Resources */,
+				2B5A7EA220575DF700843428 /* SKAdvisorResources.bundle in Resources */,
+				2B5A7E72205751D900843428 /* LaunchScreen.storyboard in Resources */,
+				2B5A7E6F205751D900843428 /* Assets.xcassets in Resources */,
+				2B5A7E6A205751D900843428 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5A7E76205751D900843428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5A7E81205751D900843428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B5A7E5D205751D900843428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5A7E67205751D900843428 /* ViewController.swift in Sources */,
+				2B2916FF215D4EBF000BC20D /* Anotacion.swift in Sources */,
+				2B5A7E6D205751D900843428 /* AquiV1.xcdatamodeld in Sources */,
+				2B5A7E65205751D900843428 /* AppDelegate.swift in Sources */,
+				2B704762215D1F4300A7DC48 /* AddMarcadorViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5A7E74205751D900843428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5A7E7D205751D900843428 /* AquiV1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5A7E7F205751D900843428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5A7E88205751D900843428 /* AquiV1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B5A7E7A205751D900843428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B5A7E60205751D900843428 /* AquiV1 */;
+			targetProxy = 2B5A7E79205751D900843428 /* PBXContainerItemProxy */;
+		};
+		2B5A7E85205751D900843428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B5A7E60205751D900843428 /* AquiV1 */;
+			targetProxy = 2B5A7E84205751D900843428 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B5A7E68205751D900843428 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B5A7E69205751D900843428 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B5A7E70205751D900843428 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B5A7E71205751D900843428 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B5A7E8A205751D900843428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B5A7E8B205751D900843428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B5A7E8D205751D900843428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YZD568V9TB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AquiV1",
+				);
+				INFOPLIST_FILE = AquiV1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyrbes.AquiV1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2B5A7E8E205751D900843428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YZD568V9TB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AquiV1",
+				);
+				INFOPLIST_FILE = AquiV1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyrbes.AquiV1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2B5A7E90205751D900843428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YZD568V9TB;
+				INFOPLIST_FILE = AquiV1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyrbes.AquiV1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AquiV1.app/AquiV1";
+			};
+			name = Debug;
+		};
+		2B5A7E91205751D900843428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YZD568V9TB;
+				INFOPLIST_FILE = AquiV1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyrbes.AquiV1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AquiV1.app/AquiV1";
+			};
+			name = Release;
+		};
+		2B5A7E93205751D900843428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YZD568V9TB;
+				INFOPLIST_FILE = AquiV1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyrbes.AquiV1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AquiV1;
+			};
+			name = Debug;
+		};
+		2B5A7E94205751D900843428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YZD568V9TB;
+				INFOPLIST_FILE = AquiV1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyrbes.AquiV1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AquiV1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B5A7E5C205751D900843428 /* Build configuration list for PBXProject "AquiV1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5A7E8A205751D900843428 /* Debug */,
+				2B5A7E8B205751D900843428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B5A7E8C205751D900843428 /* Build configuration list for PBXNativeTarget "AquiV1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5A7E8D205751D900843428 /* Debug */,
+				2B5A7E8E205751D900843428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B5A7E8F205751D900843428 /* Build configuration list for PBXNativeTarget "AquiV1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5A7E90205751D900843428 /* Debug */,
+				2B5A7E91205751D900843428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B5A7E92205751D900843428 /* Build configuration list for PBXNativeTarget "AquiV1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5A7E93205751D900843428 /* Debug */,
+				2B5A7E94205751D900843428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B5A7E6B205751D900843428 /* AquiV1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B5A7E6C205751D900843428 /* AquiV1.xcdatamodel */,
+			);
+			currentVersion = 2B5A7E6C205751D900843428 /* AquiV1.xcdatamodel */;
+			path = AquiV1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2B5A7E59205751D900843428 /* Project object */;
+}

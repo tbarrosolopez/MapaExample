@@ -9,7 +9,8 @@
 import UIKit
 import SKMaps
 class Anotacion: NSObject {
-
+    
+    var id = 0
     var nombre = ""
     var coordenate = CLLocationCoordinate2D()
 }

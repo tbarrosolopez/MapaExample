@@ -9,9 +9,12 @@
 import UIKit
 import SKMaps
 
-class ViewController: UIViewController, SKMapViewDelegate {
+
+class ViewController: UIViewController, SKMapViewDelegate, UIPopoverPresentationControllerDelegate {
     var currentAnotation = Anotacion()
+    var markers = [Anotacion]()
     var mapView : SKMapView!
+    var random: Int = 200
     var locationTap = CLLocationCoordinate2D()
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,8 +43,9 @@ class ViewController: UIViewController, SKMapViewDelegate {
 
     func mapView(_ mapView: SKMapView, didLongTapAt coordinate: CLLocationCoordinate2D) {
         locationTap = coordinate
-        print(locationTap.latitude)
-        print(locationTap.longitude)
+        currentAnotation.coordenate.latitude = locationTap.latitude
+        currentAnotation.coordenate.longitude = locationTap.longitude
+        
         self.performSegue(withIdentifier: "addMarcador", sender: self)
     }
     
@@ -49,11 +53,15 @@ class ViewController: UIViewController, SKMapViewDelegate {
         let annotation = SKAnnotation()
         annotation.minZoomLevel = 11
         annotation.offset = CGPoint(x: 0, y: 15 )
-        annotation.identifier = Int32(300)
+        annotation.identifier = Int32(random + markers.count)
+        currentAnotation.id = random + markers.count
+        random += 1
         annotation.annotationType = SKAnnotationType.blue
         annotation.location = CLLocationCoordinate2DMake(locationTap.latitude , locationTap.longitude)
-        currentAnotation.coordenate = locationTap
+       
         currentAnotation.nombre = notification.userInfo?["name"] as! String
+        
+        markers.append(currentAnotation)
         let animationSet = SKAnimationSettings()
         animationSet.animationType = SKAnimationType.animationPinDrop
         
@@ -61,13 +69,46 @@ class ViewController: UIViewController, SKMapViewDelegate {
        
     }
 
+    func mapView(_ mapView: SKMapView, didTapAt coordinate: CLLocationCoordinate2D) {
+        if coordinate.latitude != currentAnotation.coordenate.latitude || coordinate.longitude != currentAnotation.coordenate.longitude {
+            
+            mapView.hideCallout()
+        }
+    }
     func mapView(_ mapView: SKMapView, didSelect annotation: SKAnnotation) {
+        print(markers.count)
         
+        for i in 0..<markers.count {
+            print(markers[i].id)
+            print(markers[i].nombre)
+            print(i)
+        }
+         let annt = markers[annotation.identifier - 201]
+        mapView.calloutView.titleLabel.text = annt.nombre
+          let behavior = NSDecimalNumberHandler(roundingMode: .plain, scale: 4, raiseOnExactness: false, raiseOnOverflow: false, raiseOnUnderflow: false, raiseOnDivideByZero: true)
+        
+       
+       
+        mapView.calloutView.subtitleLabel.text = "".appendingFormat("ltt: %@, lng: %@",  NSDecimalNumber (value: annt.coordenate.latitude).rounding(accordingToBehavior: behavior) , NSDecimalNumber (value: annt.coordenate.longitude).rounding(accordingToBehavior: behavior))
         mapView.showCallout(for: annotation, withOffset: annotation.offset, animated: true)
     }
    
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "addMarcador"{
+            let popoverViewController = segue.destination as! AddMarcadorViewController
+            
+            popoverViewController.modalPresentationStyle = UIModalPresentationStyle.popover
+            popoverViewController.popoverPresentationController!.delegate = self
+            
+           
+        }
+        
+    }
+
+    func adaptivePresentationStyle(for controller: UIPresentationController) -> UIModalPresentationStyle {
+        return UIModalPresentationStyle.none
+    }
 
 }
 

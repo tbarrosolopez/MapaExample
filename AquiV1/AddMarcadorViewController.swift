@@ -38,6 +38,10 @@ class AddMarcadorViewController: UIViewController {
     }
     
 
+//    func adaptivePresentationStyle(for controller: UIPresentationController) -> UIModalPresentationStyle {
+//        return UIModalPresentationStyle.none
+//    }
+
     /*
     // MARK: - Navigation
 

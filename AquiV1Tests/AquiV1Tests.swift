@@ -2,8 +2,8 @@
 //  AquiV1Tests.swift
 //  AquiV1Tests
 //
-//  Created by Eliecer Cabrera Casas on 3/12/18.
-//  Copyright © 2018 Eliecer Cabrera Casas. All rights reserved.
+//  Created by Tania Barroso López on 3/12/18.
+//  Copyright © 2018 Tania Barroso López. All rights reserved.
 //
 
 import XCTest
